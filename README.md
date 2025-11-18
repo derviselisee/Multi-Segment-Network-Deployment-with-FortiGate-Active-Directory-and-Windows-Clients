@@ -1,9 +1,9 @@
-Multi Segment Network Deployment with FortiGate, Active Directory, and Windows Clients
+## Multi Segment Network Deployment with FortiGate, Active Directory, and Windows Clients
 
 This project recreates a small enterprise network environment using a FortiGate firewall, a Windows Server domain controller, and a Windows 10 workstation. 
 The goal was to design a segmented network, secure traffic between segments, deploy Active Directory services, and monitor network activity through both the firewall and the server.
 
-Project Overview
+## Project Overview
 
 The lab includes two internal LAN segments connected through a FortiGate firewall.
 LAN1 hosts a Windows 10 client.
@@ -11,7 +11,8 @@ LAN2 hosts a Windows Server running Active Directory Domain Services.
 
 The project demonstrates skills in firewall configuration, Windows Server administration, traffic monitoring, routing, DHCP, DNS, and enterprise client connectivity.
 
-What I Configured
+##What I Configured
+
 1. Firewall Interfaces and Network Segmentation
 
 Configured Port2 and Port3 on the FortiGate firewall as separate LAN interfaces.
@@ -37,7 +38,7 @@ Confirmed that the device received the correct DHCP configuration and successful
 Used FortiView and Forward Traffic logs on the FortiGate to observe real time sessions, network behavior, and application use from the Windows 10 machine.
 Reviewed system and network logs on both Windows devices to validate routing, DNS resolution, authentication, and policy effects.
 
-Screenshots
+## Screenshots
 
 -Below are the configurations validated in the project:
 -Firewall policies for internal and external traffic
@@ -65,7 +66,7 @@ Screenshots
 <img width="1911" height="922" alt="Port2 ( LAN 1)" src="https://github.com/user-attachments/assets/62b5e7ef-fc89-400f-9a9d-cf8906917734" />
 <img width="1919" height="925" alt="my network interfaces" src="https://github.com/user-attachments/assets/23b026db-a275-4ba6-b62c-57a64f290c0b" />
 
-Skills Demonstrated
+## Skills Demonstrated
 
 FortiGate configuration
 DHCP and DNS design
@@ -78,7 +79,7 @@ Network troubleshooting
 Basic Linux and virtualization tools
 Log analysis and system monitoring
 
-Tools Used
+## Tools Used
 
 -FortiGate Firewall
 -Windows Server 2019
@@ -87,7 +88,7 @@ Tools Used
 -FortiView and traffic logs
 -Windows event logs
 
-Purpose of the Project
+## Purpose of the Project
 
 This lab reflects real enterprise environments and shows the ability to design, secure, and manage a multi segment network. 
 The goal is to build foundational skills for roles in cybersecurity, network operations, and IT support.
